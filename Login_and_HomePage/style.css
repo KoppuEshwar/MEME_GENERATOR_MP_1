@@ -1,0 +1,42 @@
+body{
+    background: url(doge.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+#hdg{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: 65px;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-size: 62px;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left{
+    background-color: white;
+    padding: 30px;
+}
+
+.login-right{
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+
+.form-control{
+    background-color: transparent !important;
+}
+
+.row{
+    position: relative;
+    top: 56px;
+}
+

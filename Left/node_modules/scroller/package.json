@@ -1,0 +1,12 @@
+{
+  "name": "scroller",
+  "version": "0.0.1",
+  "description": "Pure logic scrolling component",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mjohnston/scroller.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mjohnston/scroller"
+}

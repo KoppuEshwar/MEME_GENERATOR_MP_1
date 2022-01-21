@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- html2canvas libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="meme1.css">
+</head>
+<body>
+
+    <div id="main">
+        <textarea name="" id="upper"       placeholder="Type your meme"></textarea>
+        <br>
+        <div id="memes">
+            <img src="https://store-images.microsoft.com/image/apps.59682.9007199266251377.11eabd37-a0d4-4a98-a6dc-6cd4ec6a02e3.33ff95a5-12b9-4036-9843-957c1b44cdd8?mode=scale&q=90&h=200&w=200&background=%230078D7" alt="img" id="img">
+        </div>
+        <textarea name="" id="lower" placeholder="Type lower meme"></textarea>
+        <br>
+    </div>
+
+
+    <div class="access">
+        <input type="file" id="input" accept="image/*" name="meme">
+        <label for="input" class="btn" id="upload"><i class="fa fa-upload"></i>Upload_Image</label>
+        <a href="" id="refresh" class="btn"><i class="fa fa-refresh"></i>Refresh</a>
+        <a href="#" id="btn-preview" class="btn"><i class="fa fa-cog"></i>Generate</a>
+        <a href="" id="downloads" class="btn"><i class="fa fa-download "></i>Download</a>
+    </div>
+
+    <script src="meme.js"></script>
+</body>
+</html>
