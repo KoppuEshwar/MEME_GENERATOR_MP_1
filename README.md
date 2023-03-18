@@ -1,31 +1,45 @@
 DEMO LINK : [Click Here](https://drive.google.com/file/d/1rYGvOLO2VkuimWnFellfwXoyQmmYPBT6/view?usp=sharing) 
-<br>
-<br>
-SOFTWARE REQUIREMENTS Languages used:
-• FRONTEND :HTML, CSS, Bootstrap, JavaScript, React 
-• BACKEND :PHP(Hypertext Preprocessor) 
-• DATABASE :MySQL 
-• API’s USED :ImgFlip API (Application Program Interface)
+# Meme Generator
 
-HARDWARE REQUIREMENTS (minimum) 
-OS :Windows 7 SP1 
-RAM :2GB STORAGE :250 MB 
-INPUT DEVICE :Keyboard or touch screen. 
-OTHER REQUIREMENTS: A Good Internet Connection, Integrated video card.
+A perfect platform for spreading humour and earning money.
+## Description
 
-Our web page consists of two sections;
-• Front end 
-• Back end 
-The very first page displayed to the user is the welcome page which consists of login page for the existing user 
-and register page for the new users. the new user can register by giving his credentials like Email address and 
-Instagram user name. whereas the existing user can get signed into it by giving his username. 
-once the details get verified the user will be taken to the landing page it again consists of two sections
-• Choosing meme templates which are fetched from the Apl(ImgFlip) 
-• Or he/she can choose his/her own memes from their respective device. After clicking on either of the desired buttons in the landing page,
-  they will be directed to the respected pages. The user then can choose desired meme templates fetched from API or upload his own images
-  from local storage and after writing the suitable captions he can save the image into his device by clicking on the download button.
+- Developed a Web application using HTML, CSS, JavaScript, ReactJS, Bootstrap, for front‑end and back‑end on MySQL database and php.
+- Used ImgFlip API for fetching the meme templates in order to render them as template gallery in our website.
+- The user can either choose templates from the template gallery or can even make their own memes by uploading their templates from the system.
 
-The program can be run successfully by the following steps 
-• Open XAMPP control panel and start the Apache server and MySQL 
-• Type “npm run” in cmd or Vscode terminal pointing the directory whereour react app is located 
-• The program started successfully Following are the image glimpses of our Meme Generator app
+## Journey through Website
+- The very first page displayed to the user is the welcome page which consists of login page for the existing user and register page for the new users. 
+- The new user can register by giving his credentials like Email address and Instagram user name, whereas the existing user can get signed into it by giving his username. 
+- Once the details get verified the user will be taken to the landing page it again consists of two sections.
+- First section consists of choosing meme templates which are displayed like a photo gallery, and are fetched in the form of a "Response Array" of random images from the GET request of ImgFlip API.
+- The latter section comprises of features where a user can upload his own meme templates from local storage and after writing the suitable captions he can save the image into his device by clicking on the download button.
+
+## Technologies
+
+**Front-End:** HTML, CSS, Bootstrap, JavaScript, ReactJS
+
+**Back-End:** PHP(Hypertext Preprocessor)
+
+**Database:** MySQL
+
+**API used:** ImgFlip API (Application Program Interface)
+
+
+## Challenges Faced
+
+- One of the major challenges that we faced were to improve on the front‑end part and make the website look more visually appealing.
+- As we are using xampp server, which in fact is not quite scalable and compatible sometimes, it was giving certain issues during the login part where the registered username is to be stored in the MySQL database.
+- There were some issues while hitting correct API request for fetching the meme templates.
+## Installation
+
+You can follow the below steps for running the project in your local computer.
+
+- Open XAMPP control panel and start the Apache server and MySQL.
+-  Type “npm run” in cmd or VScode terminal pointing the directory where our react app is located.
+
+```bash
+  npm run <-app name->
+```
+- The program started successfully 
+    
